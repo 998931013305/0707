@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+
+.asos-div{
+    width: 700px;
+    height: 450px;
+    margin-left: 350px;
+    margin-top: 100px;
+    border-radius: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px rgb(82, 73, 73);
+    background-color: white;
+}
+
+input[placeholder="write your todo list heree..."]{
+    color: rgb(226, 14, 14);
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.asos-div-1{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.asos-div-1>span{
+    margin-left: 280px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+}
+
+.asos-div-1>input{
+    margin-left: 70px;
+    margin-top: 80px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    width: 450px;
+    height: 40px;
+}
+
+.asos-div-1>button{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.asos-div-2{
+    width: 100%;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.asos-div-3{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(228, 172, 18);
+}
